@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ActionButtons" parallel="none">
+	<parameter name="browser" value="CH" />
+	<test name="Uploading">
+		<classes>
+			<class name="accountTest.TestUpload"></class>
+		</classes>
+	</test>
+	<test name="LoginRegisteration">
+		<classes>
+			<class name="accountTest.LoginTests"></class>
+		</classes>
+	</test>
+	<test name="SmokeTest">
+		<classes>
+			<class name="accountTest.TestSmoke"></class>
+		</classes>
+	</test>
+
+</suite>
+<!-- Debug -->

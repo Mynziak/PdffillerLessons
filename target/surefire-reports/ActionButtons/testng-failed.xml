@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [ActionButtons]" parallel="none">
+  <parameter name="browser" value="CH"/>
+  <test name="LoginRegisteration(failed)" parallel="none">
+    <classes>
+      <class name="accountTest.TestSmoke">
+        <methods>
+          <include name="setupBrowser"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- accountTest.TestSmoke -->
+      <class name="accountTest.TestUpload">
+        <methods>
+          <include name="setupBrowser"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- accountTest.TestUpload -->
+      <class name="accountTest.LoginTests">
+        <methods>
+          <include name="loginWithFacebook"/>
+          <include name="setupBrowser"/>
+          <include name="todoBeforeTests"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- accountTest.LoginTests -->
+    </classes>
+  </test> <!-- LoginRegisteration(failed) -->
+</suite> <!-- Failed suite [ActionButtons] -->
