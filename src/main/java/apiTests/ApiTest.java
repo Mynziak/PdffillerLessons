@@ -22,13 +22,12 @@ public class ApiTest {
 
 
 
- //   @Test
+  @Test
     public void testAuth() throws IOException, URISyntaxException {
         apiV3Users.authUser(email, password);
 
     }
-
-    // @Test (dependsOnMethods = "testAuth")
+@Test (dependsOnMethods = "testAuth")
     public void testCurrentTime() throws IOException, URISyntaxException {
         apiV3Users.currentTime(apiV3Users.userId);
     }

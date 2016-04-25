@@ -13,7 +13,7 @@ import org.testng.annotations.Test;
 /**
      * Created by lolik on 29.03.2016.
      */
-    public class EmailValidationTest extends BrowseFactory {
+class EmailValidationTest extends BrowseFactory {
 
 
         public boolean isUrlEquals(String expectedUrl, int sec) throws InterruptedException {

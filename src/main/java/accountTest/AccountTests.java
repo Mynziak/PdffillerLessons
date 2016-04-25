@@ -26,7 +26,7 @@ public class AccountTests extends BrowseFactory {
 HelperMethods h   = new HelperMethods(); //create object of helperMethod class for using mehods in current class
     Pages page = new Pages();
 TestData data  = new TestData();
-    public static void checkAlert() {
+    public void checkAlert() {
         try {
             WebDriverWait wait = new WebDriverWait(BrowseFactory.driver, 2);
             wait.until(ExpectedConditions.alertIsPresent());

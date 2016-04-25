@@ -1,5 +1,5 @@
 
-import org.junit.Test;
+
 import org.testng.annotations.Test;
 
 import javax.mail.*;

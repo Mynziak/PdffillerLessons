@@ -14,7 +14,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * Created by DimaM on 7/23/2015.
  */
-public class BrowseFactory {
+public class BrowseFactory extends MethodsFactory {
 
 
     public static WebDriver myDriver;

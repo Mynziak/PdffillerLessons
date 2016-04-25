@@ -30,7 +30,7 @@ public class Listener extends TestListenerAdapter {
     @Override
     public void onTestFailure(ITestResult result) {
 
-        File scrFile = ((TakesScreenshot)BrowseFactory.driver).getScreenshotAs(OutputType.FILE);
+        File scrFile = ((TakesScreenshot) BrowseFactory.driver).getScreenshotAs(OutputType.FILE);
         //The below method will save the screen shot in C drive with name "HH_mm_ss.png"
              DateFormat df1 = new SimpleDateFormat("\\dd_MM_yy\\");
               DateFormat df2 = new SimpleDateFormat("HH_mm_ss");
