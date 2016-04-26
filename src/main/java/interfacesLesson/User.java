@@ -18,6 +18,16 @@ public class User {
         this.age = age;
     }
 
+
+    public User(String email, String password, String name){
+        this.email = email;
+        this.password = password;
+        this.name = name;
+
+    }
+
+
+
     public User(String email, String password){
         this(email, password, "Jack", 'm', 'f', 22);
     }
@@ -31,6 +41,11 @@ public class User {
     public String name;
 
     public int age;
+
+
+
+
+
 
 
 

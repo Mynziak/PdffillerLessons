@@ -1,4 +1,4 @@
-package otherTests;
+package otherTests.sudoku;
 
 import org.testng.annotations.Test;
 
@@ -31,8 +31,6 @@ public class Sudoku {
             a.add(i);
         }
         Collections.shuffle(a);
-//       a =  a.subList(0,9);
-
         return a;
     }
 
@@ -192,6 +190,31 @@ public class Sudoku {
 
         retunClist1(ge1, ge2, ge3, ge4, ge5, ge6, ge7, ge8, ge9);
 
+        if (ge1.equals(ge2)) {
+            ge2= compareLists(ge1,ge2);
+
+        }
+        if (ge1.equals(ge3)){
+          ge3= compareLists(ge1,ge3);
+        }
+        if (ge1.equals(ge4)) {
+            ge4= compareLists(ge1,ge4);
+        }
+        if (ge1.equals(ge5)) {
+            ge5= compareLists(ge1,ge5);
+        }
+        if (ge1.equals(ge6)) {
+            ge6= compareLists(ge1,ge6);
+        }
+        if (ge1.equals(ge7)) {
+            ge7= compareLists(ge1,ge7);
+        }
+        if (ge1.equals(ge8)) {
+            ge8= compareLists(ge1,ge8);
+        }
+        if (ge1.equals(ge9)) {
+            ge9= compareLists(ge1,ge9);
+        }
         System.out.println("----- ge 1 = " + ge1);
         System.out.println("----- ge 2 = " + ge2);
         System.out.println("----- ge 3 = " + ge3);

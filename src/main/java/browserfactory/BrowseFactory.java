@@ -17,9 +17,6 @@ import java.util.concurrent.TimeUnit;
 public class BrowseFactory extends MethodsFactory {
 
 
-    public static WebDriver myDriver;
-    public static EventFiringWebDriver driver;
-
 private static final String DIR_CHROME ="C:\\chromedriver.exe ";
 
     @BeforeTest

@@ -847,6 +847,9 @@ public class MethodsFactory extends StaticDriver {
         }
     }
 
+
+
+
     public static String getCurrentDate(String format) {
         DateFormat dateFormat = new SimpleDateFormat(format);
         return dateFormat.format(Calendar.getInstance().getTime());
