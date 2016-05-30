@@ -48,6 +48,18 @@ public class Sudoku {
         return list2;
     }
 
+    public List compareLists3(List list1, List list2) {
+
+        for (int i = 0; i < 8; i++) {
+            if (list1.get(i) != list2.get(i)) {
+                break;
+            } else {do {list2 = rndList();}
+            while (list1.get(i) != list2.get(i));
+            }
+        }
+        return list2;
+    }
+
     public List compareLists(List list1, List list2) {
 
 //      boolean a = true;

@@ -20,5 +20,12 @@ public class Lesson3 {
         System.out.println(url2);
     }
 
+    private static void jump (){
+    String s = " dfs";
+        //s.charAt()
+        int n [] [];
+
+    }
+
 
 }
