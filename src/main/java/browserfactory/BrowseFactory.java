@@ -27,7 +27,7 @@ private static final String DIR_CHROME ="C:\\chromedriver.exe ";
         if(browser.equalsIgnoreCase("FF")){
             myDriver =new FirefoxDriver();
         } else if (browser.equalsIgnoreCase("CH")){
-           System.setProperty("webdriver.chrome.driver", DIR_CHROME);
+         //  System.setProperty("webdriver.chrome.driver", DIR_CHROME);
             myDriver = new ChromeDriver();
         }
         driver = new EventFiringWebDriver(myDriver);

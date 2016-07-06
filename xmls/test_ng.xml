@@ -1,0 +1,13 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="test" verbose="1">
+    <test name="test">
+        <parameter name = "email" value = "some@email.com"/>
+        <parameter name = "password" value = "qwerty"/>
+        <classes>
+            <class name = "LessonExams.TestNgLes"></class>
+        </classes>
+    </test>
+
+</suite>

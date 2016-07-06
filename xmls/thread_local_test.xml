@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="testThread" verbose="1" parallel="tests" >
+
+    <test name="testThread">
+        <classes>
+            <class name = "otherTests.lessonPageFactory.ThreadLoaclTestSecond"></class>
+        </classes>
+    </test>
+    <test name="testThread2">
+        <classes>
+            <class name = "otherTests.lessonPageFactory.ThreadLocalTest"></class>
+        </classes>
+    </test>
+</suite>
